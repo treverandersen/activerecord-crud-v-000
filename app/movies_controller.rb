@@ -24,7 +24,6 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    m = M.new
     m.title = "Home Alone"
     m.save
   end
